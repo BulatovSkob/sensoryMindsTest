@@ -27,4 +27,3 @@ export const trackUrlChanges = async () => {
   websiteMonitor.track(process.env.WEBSITES?.split(',') ?? []);
 };
 
-trackUrlChanges();
